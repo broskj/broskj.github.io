@@ -18,16 +18,24 @@ h1,
 h2,
 h3,
 a,
-p,
 .page-header {
     color: whitesmoke;
     font-family: 'Raleway', sans-serif;
 }
 
-a:link,
-a:visited {
+p {
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+a:link {
     color: whitesmoke;
     text-decoration: underline;
+}
+
+a:visited {
+    color: floralwhite;
 }
 
 .landing-title {
@@ -42,7 +50,18 @@ a:visited {
     margin-right: auto;
 }
 
+.row {
+    justify-content: center;
+}
+
 .col-md-4 {
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
+    text-align: center;
+    padding: 15px
+}
+
+.img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
