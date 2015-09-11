@@ -1,0 +1,36 @@
+/*
+TODO:
+
+*/
+
+body {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-image: url(img/background2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2, h3, a, p, .page-header {
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+a:link, a:visited {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.landing-title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 300%;
+}
+
+.img-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
