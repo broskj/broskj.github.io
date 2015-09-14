@@ -32,14 +32,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand">KB</a>
+                <a class="navbar-brand" href="#">KB</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a id="home" href="#">HOME</a></li>
-                    <li><a id="about" href="#about">ABOUT</a></li>
-                    <li><a id="work" href="#work">WORK</a></li>
-                    <li><a id="projects" href="#projects">PROJECTS</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
                 </ul>
                 <ul>
 
@@ -73,12 +73,9 @@
         <div class="page-header">
             <h1>ABOUT</h1>
         </div>
-        <p>
-            My name is Kyle Brost, I'm a senior studying Computer Science student at the Univerity of Florida.
-            <br/> more stuff
-            <br/> even more stuff
-            <br/>
-        </p>
+        <p>My name is Kyle Brost, I'm a senior studying Computer Science student at the University of Florida, and I'm currently seeking a full-time or internship position as a software developer/engineer or Android application developer. I previously attended Florida State College at Jacksonville for my Associate of Arts degree. I have a consistent work history with few gaps in employment and a solid work ethic.</p>
+        <p>My computer skills include proficiency in programming languages including Java and C++ and familiarity with C, C#, XML, HTML, and CSS; proficiency with software including Eclipse, Android Studio, CodeBlocks, GitHub version control, and Microsoft Office Suite and familiarity with Microsoft Visual Studio, qtSPIM, Quartus, and MATLAB; and lastly proficiency with operating systems including Windows XP, 7, and 10, as well as Ubuntu.</p>
+        <p>My studies at the University of Florida are similar to those of other computer science graduates, with courses not limited to Data Structures and Algorithms, Database Systems, Digital Logic with Dr. Schwartz, and Discrete Structures. My electives also include Data Mining, Technical Writing, and Modern Physics.</p>
     </div>
 
     <div id="work" class="container">
@@ -100,17 +97,23 @@
             <div class="col-md-4">
                 <img src="img/applogo512.png" class="img-responsive" height="256px" width="256px">
                 <h3><a href="https://play.google.com/store/apps/details?id=com.jacksonvillecomedy.broskj.jaxcomedy&hl=en" target="_blank">JaxComedy</a></h3>
-                <p>jax comedy info</p>
+                <p>During my work as a food server at the Comedy Club of Jacksonville, I approached the owner about creating an Android application for the business. My goal with the app was to provide an informative way for users to access information and to have access to a rewards program to promote business. I designed the application to synchronize data with a private Google Spreadsheet which contained information about each show including the performer and showtimes. This information was used to send weekly notifcations to the user, which were incentivized by granting reward points upon viewing. Points were also awarded by presenting the device to the host or hostess who entered a password to confirm ticket purchases; these points would accumulate and could be exchanged for free tickets to shows. The app was praised by the owner and implemented for a short while before the Comedy Club closed temporarily.</p>
+                <p>The application itself was written in Java and XML and uses JSON parsing, networking via Google Sheets synchronization, a custom version of the Cards user interface as a part of Google's Material Design, and other Android-specific knowledge including activities, intents, adapters, and the Android life cycle.</p>
+                <p>The application is available to download (though unsupported) from <a href="https://play.google.com/store/apps/details?id=com.jacksonvillecomedy.broskj.jaxcomedy">Google Play</a>, and the source code is available on <a href="https://github.com/broskj/JaxComedy">github</a>.</p>
             </div>
             <div class="col-md-4">
                 <img src="img/battleship.png" class="img-responsive" height="256px" width="256px">
                 <h3><a href="http://github.com/broskj/BattleShip" target="_blank">BattleShip</a></h3>
-                <p>battleship info</p>
+                <p>I was a part of a group project team that decided to recreate the board game BattleShip in command line using C++. The game uses object-orientation, multi-dimensional arrays, pointers, stacks, file reading and string parsing, and other general C++ knowledge. The program offers a guided tutorial, and can be played against either another player or against an AI opponent with three difficulties.</p>
+                <p>My contribution included creating different ship placement functions (place ships at specified coordinates, place them in predefined locations for bug testing, and place them randomly on the board), validation for ship placements, sunken ship confirmation, an automated tutorial, parts of the Player and Computer classes and the computer AI, which utilized stacks to simulate strategic play.</p>
+                <p>The game's source code is available to download through <a href="https://github.com/broskj/BattleShip">github</a> (it may need to be run with 'g++ -std=c++0x' on UNIX systems).</p>
             </div>
             <div class="col-md-4">
                 <img src="img/mygymbuddy512.png" class="img-responsive" height="256px" width="256px">
                 <h3><a href="http://github.com/broskj/MyGymBuddy" target="_blank">MyGymBuddy</a></h3>
-                <p>mygymbuddy info</p>
+                <p>MyGymBuddy was an attempt to practice with Google's Material Design guidelines and release a product to Google Play with the intent to monetize. It was originally meant to be a fully customizable workout tracker for cardio and weightlifting, but I stopped development to focus due to school and family matters and don't intend on continuing development soon.</p>
+                <p>The application, similar to the JaxComedy Android app, utilizes Java, XML, and similar Android-specific knowledge. I followed elements of Google's Material Design, used XML layouts to build custom Dialogs, and used the Gson library to handle saving and loading class data to the user's device.</p>
+                <p>The application's source code is available on <a href="https://github.com/broskj/MyGymBuddy/">github</a>.</p>
             </div>
         </div>
     </div>
