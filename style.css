@@ -1,11 +1,11 @@
 /*
 TODO:
-    add banner, separate sections, make sure clicking tabs at top directs to section
+    add banner/picture, 
     finalize title, change icon
 */
 
 body {
-    padding-top: 100px;
+    padding-top: 55px;
     padding-bottom: 50px;
     background-image: url(img/background2.jpg);
     background-attachment: fixed;
@@ -36,6 +36,10 @@ a:link {
 
 a:visited {
     color: floralwhite;
+}
+
+.right-nav {
+    margin-right: 5px;
 }
 
 .landing-title {
